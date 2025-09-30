@@ -4,6 +4,7 @@ import { dummyCarData } from '../assets/assets'
 import CarCard from '../components/CarCard'
 import FeaturedDection from '../components/FeaturedDection'
 import Banner from '../components/Banner'
+import Testimonial from '../components/Testimonial'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <FeaturedDection/>
       <Banner/>
+      <Testimonial/>
       
     </>
   )
